@@ -1,0 +1,95 @@
+body {
+    background-color: FF3366 ;
+}
+
+div {
+    border-radius: 1em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+//    margin-left: 0.5em;
+//    margin-right: 0.5em;
+    background-color: lightBlue;
+}
+
+.inner {
+    background-color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 2%;
+    overflow: auto;
+    height: 96%;
+}
+
+
+.filter {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 30%;
+    height: 100%;
+}
+
+.filter:hover {
+    background-color: blue;
+}
+
+
+.ingredients {
+    position: absolute;
+    left: 33%;
+    top: 0;
+    width: 30%;
+    height: 100%;
+}
+
+.recipe {
+    position: absolute;
+    top: 0;
+    left: 66%;
+    right: 0;
+    height: 100%;
+}
+
+.newRecipeWindow {
+    position:absolute;
+    left: 2em;
+    right: 2em;
+    top: 2em;
+//    bottom: 2em;
+    background-color: blue;
+    z-index:2;
+}
+
+#name {
+    width: 100%;
+}
+
+textarea {
+    position: relative;
+    height: 70%;
+    width: 45%;
+}
+
+body * {
+    border-radius: 0.5em;
+}
+
+.tagBox {
+    position: relative;
+    padding: 2px;
+    border-radius: 5px;
+    background-color: FF6699;
+    color: black;
+}
+
+.tagBox:hover {
+    background-color: FF3366;
+}
+
+button {
+    border-radius : 0;
+}
+
+.rlink:hover {
+    color: red;
+}
