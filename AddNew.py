@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/env python2.7
 
-import dataconnection
+import ConnectData
 import sys
 
-db = dataconnection.DataConnection()
+db = ConnectData.ConnectData()
 
 def recipeFromFile(file):
     with open(file, 'r') as fin:
